@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <p>★柳田さんが作る予定のフォーム★</p>
     <router-view/>
   </div>
 </template>
