@@ -1,0 +1,21 @@
+<pre class="html">
+    <html>
+    <form id="selectDate">
+      <select v-model="year" @change="get_days">
+        <option v-for="n in 50" :value="n + 1980">
+          {{ n + 1980 }}
+        </option>
+      </select>年
+      <select v-model="month" @change="get_days">
+        <option v-for="n in 12" :value="n">
+          {{ n }}
+        </option>
+      </select>月
+       <select v-model="day">
+        <option v-for="n in days_max" :value="n">
+          {{ n }}
+        </option>
+      </select>日
+    </form>
+    </html>
+    </pre>
